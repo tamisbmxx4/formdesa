@@ -35,12 +35,12 @@
                 <div class="card-heading">
                     <img src="vendor/logo.png"
                         class="mx-auto d-block img-size-2 img-fluid" alt="">
-                    <h2 class="title">Pengisian Data Warga Desa Palasari</h2>
+                    <h2 class="title">SURVEY KEPUASAN MASYARAKAT KKN ITB AHMAD DAHLAN JAKARTA</h2>
                 </div>
                 <div class="card-body">
                     <form method="POST" autocomplete="off" name="google-sheet">
                         <div class="form-row">
-                            <div class="name">Nama Lengkap </div>
+                            <div class="name"> Nama Lengkap </div>
                             <div class="value">
                                 <div class="input-group">
                                     <input required class="input--style-5" type="text" name="Nama">
@@ -48,54 +48,16 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="name">NIK</div>
-                            <div class="value">
-                                <div class="input-group">
-                                    <input required class="input--style-5" type="text" name="Nik">
-                                </div>
+                            <div class="name">1.  Pendapat Anda mengenai upaya yang dilakukan oleh tim KKN dalam memajukan Desa Palasa Sari?
                             </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="name">No. Kartu Keluarga </div>
-                            <div class="value">
-                                <div class="input-group">
-                                    <input required class="input--style-5" type="text" name="No_kk">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="name">Alamat </div>
-                            <div class="value">
-                                <div class="input-group">
-                                    <input required class="input--style-5" type="text" name="Alamat">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="name">RT</div>
-                            <div class="value">
-                                <div class="input-group">
-                                    <input required class="input--style-5" type="text" name="Rt">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="name">RW</div>
-                            <div class="value">
-                                <div class="input-group">
-                                    <input required class="input--style-5" type="text" name="Rw">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="name">Jenis Kelamin</div>
                             <div class="value">
                                 <div class="input-group">
                                     <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="Jenis_kelamin">
-                                            <option disabled="disabled" selected>Pilih Jenis kelamin</option>
-                                            <option value="Laki-Laki">Laki - laki</option>
-                                            <option value="Perempuan">Perempuan</option>
+                                        <select name="Pertanyaan_1">
+                                            <option disabled="disabled" selected>Pilih Jawaban</option>
+                                            <option value="Sangat_Puas">Sangat Puas</option>
+                                            <option value="Puas">Puas</option>
+                                            <option value="Tidak_Puas">Tidak Puas</option>
                                         </select>
                                         <div class="select-dropdown"></div>
                                     </div>
@@ -103,37 +65,133 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="name">Umur</div>
+                            <div class="name">2. Sejauh mana Anda merasa terlibat dalam kegiatan-kegiatan KKN di Desa Palasa Sari?
+                            </div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" required type="umur" name="Umur">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="Pertanyaan_2">
+                                            <option disabled="disabled" selected>Pilih Jawaban</option>
+                                            <option value="Sangat_Terlibat">Sangat Terlibat</option>
+                                            <option value="Tidak_Terlibat">Tidak Terlibat</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                       <div class="form-row m-b-55">
-                            <div class="name">Nomor Telepon (Pilih salah satu)</div>
+                        <div class="form-row">
+                            <div class="name">3. Apakah Anda merasa bahwa KKN telah memberikan dampak positif terhadap kualitas hidup Anda di Desa Palasa Sari?
+                            </div>
                             <div class="value">
-                                <div class="row row-space">
-                                    <div class="col-2">
-                                        <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" name="No_Suami">
-                                            <label class="label--desc">No. Telepon Suami</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-2">
-                                        <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" name="No_Istri">
-                                            <label class="label--desc">No .Telepon Istri</label> 
-                                        </div>
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="Pertanyaan_3">
+                                            <option disabled="disabled" selected>Pilih Jawaban</option>
+                                            <option value="Sangat_Positif">Sangat Positif</option>
+                                            <option value="Biasa_saja">Biasa saja</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <div class="form-row">
-                            <div class="name">Email (Jika Ada)</div>
+                            <div class="name">4. Bagaimana penilaian Anda terhadap program-program sosial dan pemberdayaan masyarakat yang dilaksanakan selama KKN?
+                            </div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" type="text" name="Email">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="Pertanyaan_4">
+                                            <option disabled="disabled" selected>Pilih Jawaban</option>
+                                            <option value="Sangat_Baik">Sangat Baik</option>
+                                            <option value="Biasa_saja">Biasa saja</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">5. Apakah Anda merasa bahwa komunikasi antara tim KKN dan warga Desa Palasa Sari berjalan dengan baik? Jika tidak, apa yang dapat ditingkatkan?
+                            </div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="Pertanyaan_5">
+                                            <option disabled="disabled" selected>Pilih Jawaban</option>
+                                            <option value="Sangat_Baik">Sangat Baik</option>
+                                            <option value="Tidak_Baik">Tidak baik, Kurang nya Koordinasi terhadap Pengurus</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">6. Bagaimana pendapat Anda mengenai keberlanjutan proyek-proyek yang telah dilakukan oleh tim KKN? Apakah Anda melihat potensi perkembangan lebih lanjut?
+                            </div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="Pertanyaan_6">
+                                            <option disabled="disabled" selected>Pilih Jawaban</option>
+                                            <option value="Sangat_Terlihat">Sangat Terlihat </option>
+                                            <option value="Biasa_saja">Biasa Saja</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">7. Apakah ada masukan atau saran yang dapat Anda berikan untuk perbaikan program KKN di Desa Palasa Sari di masa depan?
+                            </div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input required class="input--style-5" type="text" name="Pertanyaan_7">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">8. Bagaimana tingkat kepuasan Anda terhadap kualitas pelayanan yang diberikan oleh tim KKN?
+                            </div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="Pertanyaan_8">
+                                            <option disabled="disabled" selected>Pilih Jawaban</option>
+                                            <option value="Sangat_Puas">Sangat Puas </option>
+                                            <option value="Tidak_Puas">Tidak Puas </option>
+                                            <option value="Biasa_saja">Biasa Saja</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">9. Apakah Anda merasa bahwa kegiatan KKN telah meningkatkan kesadaran masyarakat terhadap isu-isu sosial dan lingkungan di Desa Palasa Sari?
+                            </div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="Pertanyaan_9">
+                                            <option disabled="disabled" selected>Pilih Jawaban</option>
+                                            <option value="Ya">Ya </option>
+                                            <option value="Tidak">Tidak</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">10. Apakah Anda akan merekomendasikan program KKN di Desa Palasa Sari kepada orang lain? Jika ya,mengapa?
+                            </div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input required class="input--style-5" type="text" name="Pertanyaan_10">
                                 </div>
                             </div>
                         </div>
@@ -156,7 +214,7 @@
                                 </div>
                             </div>
                         </div> -->
-                        <div class="form-row">
+                        <!-- <div class="form-row">
                             <div class="name">Pekerjaan</div>
                             <div class="value">
                                 <div class="input-group">
@@ -179,7 +237,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="form-row p-t-20">
                             <label class="label label--block">Apakah Alamat saat ini sesuai dengan KTP</label>
                             <div class="p-t-15">
